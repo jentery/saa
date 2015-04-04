@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<!-- TITLE OF PRESENTATION -->
+		<title>Prototyping the Inaccessible | Shakespeare Association of America | 4 April 2015 | Jentery Sayers</title>
+		
+		<!-- DESCRIPTION OF PRESENTATION  -->
+		<meta name="description" content="2015, Shakespeare Association of America, 4 April 2015">
+		
+		<!-- AUTHOR --> 
+		<meta name="author" content="Jentery Sayers">
+		
+		<!-- RESPONSIVE DESIGN -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- CSS FOR THE FRAMEWORK -->
+		<link rel="stylesheet" href="css/reveal.min.css">
+		
+		<!-- CSS FOR PRESENTATION CONTENT -->
+		<link rel="stylesheet" href="css/theme.css" id="theme">
+	
+		<!-- CSS FOR SYNTAX HIGHLIGHTING -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<!-- OUTPUTTING IN PDF (doesn't work that well, to be honest) -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+	</head>
+	
+	<!-- BEGIN SLIDEDECK -->
+	
+	<body>
+		<div class="reveal">
+		<div class="slides">
+		<!-- BEGIN SLIDES -->	
+
+	<section id="title" data-background="images/drawing.png">
+  	<h1>Prototyping the Inaccessible</h1>
+  	<h3>Jentery Sayers | University of Victoria | @jenterysayers<br>Shakespeare Association of America | Vancouver | 4 April 2015</h3>
+  	</section> 
+
+  	<section id="wearables" class="transparent" data-background="images/drawing.png">
+  	</section>
+
+  	<section id="swords" class="transparent" data-background="images/swords.jpg">
+  	</section>
+
+  	<section id="github" class="transparent" data-background="images/github.png">
+  	</section>
+
+  	<section id="bienfait" class="transparent" data-background="images/bienfait.png">
+  	</section>
+
+  	<section id="pins" class="transparent" data-background="images/pins.jpg">
+  	</section>
+
+  	<section id="skull" class="transparent" data-background="images/skull2.jpg">
+  	</section>
+
+  	<section id="superficial" class="transparent" data-background="images/superficial.jpg">
+  	</section>
+
+  	<section id="alpha" class="transparent" data-background="images/3.png">
+  	</section>
+
+	<section id="solenoid" data-background="images/3.png">
+    <video data-autoplay loop src="images/solenoid.mp4"></video></section> 
+
+    <section id="mesh" class="transparent" data-background="images/mesh.gif">
+  	</section>
+
+	<section id="rendered" class="transparent" data-background="images/rendered.gif">
+  	</section>
+
+  	<section id="miller" class="transparent" data-background="images/miller.jpg">
+  	</section>
+
+  	<section id="manual" class="transparent" data-background="images/stage.jpg">
+  	</section>
+
+  	<section id="conclusion" class="transparent" data-background="images/conclusion.jpg">
+  	</section>
+
+      <section id="thanks" data-background="images/thanks.jpg"><h1>Thank You</h1>
+      <h3>Jentery Sayers</a> | University of Victoria</a> | @jenterysayers</a></h3>
+      <h3>Special thanks to Ellen MacKay and William J. Turkel</h3><h3>The Kits are supported by the Social Sciences and Humanities<br>Research Council, the Canada Foundation for Innovation,<br>and the British Columbia Knowledge Development Fund</h3>
+      </section> 
+
+		<!-- Close slides div-->
+		</div>
+		<!-- END SLIDES--> 
+		
+		<!-- BEGIN TRANSITION AND NAVIGATION STYLES / FEATURES --> 
+		
+	<!-- initialize reveal.js + related javascripts --> 
+	
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+	<script>			
+	Reveal.initialize({
+        
+    // Display controls in the bottom right corner
+    controls: false,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // Push each slide change to the browser history
+    history: true,
+
+    // Enable keyboard shortcuts for navigation
+    keyboard: true,
+
+    // Enable touch events for navigation
+    touch: true,
+    
+    // Enable an annoying rollover effect for links 
+    rollingLinks: false,
+
+    // Enable the slide overview mode
+    overview: true,
+
+    // Vertical centering of slides
+    center: true,
+
+    // Loop the presentation
+    loop: false,
+
+    // Change the presentation direction to be RTL
+    rtl: false,
+
+    // Number of milliseconds between automatically proceeding to the next slide, disabled when set to 0, this value can be overwritten by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: false,
+
+    // Transition style
+    transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Transition speed
+    transitionSpeed: 'fast', // default/fast/slow
+
+    // Transition style for full page backgrounds
+    backgroundTransition: 'none', // default/linear/none
+        
+    // Optional libraries used to extend reveal.js | affords syntax highlighting + editing, zoom, speaker notes, and markdown
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+			});
+	</script>	
+	</body>
+	<!-- END SLIDEDECK--> 	
+</html>
